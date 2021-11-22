@@ -9,6 +9,19 @@
 }
 .small-transform{
  width:  70px;
- height: 60px;
+ height: 70px;
+ margin: 15px;
  background-color: black;
+ position: relative;
+ animation-name: example;
+ animation-duration: 5s;
+ 
+ animation-fill-mode:both
 }
+@keyframes example{
+from{transform: rotate(0deg);}
+0%{top: 0;}
+to{transform: rotate(360deg);}
+100%{top: 580px;}
+}
+
