@@ -1,0 +1,14 @@
+
+
+.transform{
+    margin: 0 auto;
+    width: 100px;
+    height: 650px;
+    background-color: chartreuse;
+    transform: rotate(-60deg);
+}
+.small-transform{
+ width:  70px;
+ height: 60px;
+ background-color: black;
+}
